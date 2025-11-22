@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="g4" x1="0" x2="1">
+      <stop offset="0" stop-color="#FBCFE8"/>
+      <stop offset="1" stop-color="#F472B6"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#g4)" rx="20"/>
+  <g transform="translate(60,60)" fill="#fff" font-family="Tahoma, Arial">
+    <text x="0" y="40" font-size="34" font-weight="700">Words</text>
+    <text x="0" y="80" font-size="18">Text processing</text>
+    <g transform="translate(0,110)">
+      <rect x="0" y="0" width="80" height="28" rx="6" fill="#ffffff33"/>
+      <rect x="96" y="0" width="160" height="28" rx="6" fill="#ffffff55"/>
+      <rect x="272" y="0" width="120" height="28" rx="6" fill="#ffffff22"/>
+    </g>
+  </g>
+</svg>

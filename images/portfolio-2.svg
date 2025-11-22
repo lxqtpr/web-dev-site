@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg2" x1="0" x2="1">
+      <stop offset="0" stop-color="#FDE68A"/>
+      <stop offset="1" stop-color="#F97316"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#bg2)" rx="20"/>
+
+  <!-- Large decorative circle (top-left) -->
+  <circle cx="150" cy="120" r="100" fill="#ffffff22"/>
+
+  <!-- Medium decorative circle (bottom-right) -->
+  <circle cx="650" cy="380" r="80" fill="#ffffff22"/>
+
+  <!-- Text in top-left corner -->
+  <g transform="translate(60, 60)" font-family="Verdana, sans-serif">
+    <text x="0" y="40" font-size="40" font-weight="700" fill="#fff">CSS Art</text>
+    <text x="0" y="80" font-size="18" fill="#ffffffcc">Pure CSS drawing</text>
+  </g>
+
+  <!-- Main content box (center) -->
+  <g transform="translate(250, 200)">
+    <!-- Content box -->
+    <rect x="0" y="0" width="300" height="200" rx="16" fill="#ffffff22"/>
+
+    <!-- Decorative elements inside box -->
+    <g transform="translate(60, 50)">
+      <!-- Mushroom icon (simplified) -->
+      <circle cx="40" cy="60" r="35" fill="#DC143C" opacity="0.8"/>
+      <rect x="25" y="60" width="30" height="45" rx="8" fill="#E8D5C4" opacity="0.9"/>
+
+      <!-- Butterfly icon (simplified) -->
+      <g transform="translate(130, 20)">
+        <ellipse cx="0" cy="0" rx="6" ry="18" fill="#FFD700" opacity="0.8"/>
+        <ellipse cx="-12" cy="-5" rx="14" ry="10" fill="#6B5BFF" opacity="0.7"/>
+        <ellipse cx="12" cy="-5" rx="14" ry="10" fill="#6B5BFF" opacity="0.7"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Bottom decorative shapes -->
+  <rect x="50" y="420" width="120" height="8" rx="4" fill="#ffffff33"/>
+  <rect x="200" y="420" width="180" height="8" rx="4" fill="#ffffff22"/>
+</svg>
